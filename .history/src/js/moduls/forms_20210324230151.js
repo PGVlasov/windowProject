@@ -21,9 +21,9 @@ const forms = () => {
       method: "POST",
       body: data,
     });
-
     return await res.text();
   };
+
   const clearInputs = () => {
     inputs.forEach((item) => {
       item.value = "";

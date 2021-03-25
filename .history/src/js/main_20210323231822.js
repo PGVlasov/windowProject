@@ -13,5 +13,4 @@ window.addEventListener("DOMContentLoaded", () => {
     ".decoration_content > div > div",
     "after_click"
   );
-  forms();
 });
