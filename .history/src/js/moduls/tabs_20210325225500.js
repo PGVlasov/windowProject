@@ -18,7 +18,7 @@ const tabs = (
     });
   }
   function showTabContent(i = 0) {
-    content[i].style.display = display;
+    content[i].style.display = "block";
     tab[i].classList.add(activeClass);
   }
 

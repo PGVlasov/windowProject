@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   let modalState = {};
 
-  changeModalState(modalState);
+  changeModalState();
   modals();
   tabs(".glazing_slider", ".glazing_block", ".glazing_content", "active");
   tabs(
@@ -25,6 +25,6 @@ window.addEventListener("DOMContentLoaded", () => {
     "do_image_more",
     "inline-block"
   );
-  forms(modalState);
+  forms();
 });
 // ".balcon_items", ".balcon_items_img", ".big_img>img", '.do_image_more', "inline-block"

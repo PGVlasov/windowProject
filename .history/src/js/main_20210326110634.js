@@ -2,14 +2,12 @@ import "./slider";
 import modals from "./moduls/madals";
 import tabs from "./moduls/tabs";
 import forms from "./moduls/forms";
-import changeModalState from "./moduls/changeModalState";
 
 window.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
   let modalState = {};
 
-  changeModalState(modalState);
   modals();
   tabs(".glazing_slider", ".glazing_block", ".glazing_content", "active");
   tabs(
@@ -25,6 +23,6 @@ window.addEventListener("DOMContentLoaded", () => {
     "do_image_more",
     "inline-block"
   );
-  forms(modalState);
+  forms();
 });
 // ".balcon_items", ".balcon_items_img", ".big_img>img", '.do_image_more', "inline-block"

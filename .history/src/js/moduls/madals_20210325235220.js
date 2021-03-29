@@ -66,14 +66,7 @@ const modals = () => {
   bindModal(
     ".popup_calc_button",
     ".popup_calc_profile",
-    ".popup_calc_profile_close",
-    false
-  );
-  bindModal(
-    ".popup_calc_profile_button",
-    ".popup_calc_end",
-    ".popup_calc_end_close",
-    false
+    ".popup_calc_profile_close"
   );
   //   showModalByTime(".popup", 60000);
 };
