@@ -9,7 +9,6 @@ window.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
   let modalState = {};
-  let deadline = "2021-07-01";
 
   changeModalState(modalState);
   modals();
@@ -28,6 +27,5 @@ window.addEventListener("DOMContentLoaded", () => {
     "inline-block"
   );
   forms(modalState);
-  timer(".container1", deadline);
 });
 // ".balcon_items", ".balcon_items_img", ".big_img>img", '.do_image_more', "inline-block"

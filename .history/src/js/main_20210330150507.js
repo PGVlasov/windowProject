@@ -28,6 +28,6 @@ window.addEventListener("DOMContentLoaded", () => {
     "inline-block"
   );
   forms(modalState);
-  timer(".container1", deadline);
+  timer(".conteiner1", deadline);
 });
 // ".balcon_items", ".balcon_items_img", ".big_img>img", '.do_image_more', "inline-block"
