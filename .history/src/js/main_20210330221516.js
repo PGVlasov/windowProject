@@ -32,3 +32,4 @@ window.addEventListener("DOMContentLoaded", () => {
   timer(".container1", deadline);
   images();
 });
+// ".balcon_items", ".balcon_items_img", ".big_img>img", '.do_image_more', "inline-block"
